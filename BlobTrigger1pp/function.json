@@ -1,0 +1,11 @@
+{
+  "bindings": [
+    {
+      "name": "myblob",
+      "path": "blob/{name}",
+      "connection": "hauzertempblob_STORAGE",
+      "direction": "in",
+      "type": "blobTrigger"
+    }
+  ]
+}
